@@ -1,0 +1,9 @@
+#!/bin/sh
+sudo vi /etc/network/interfaces
+i
+auto eth0
+iface eht0 inet static
+address 192.168.0.101
+gateway 192.168.0.110
+netmask 192.168.0.110
+:wq

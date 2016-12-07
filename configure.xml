@@ -1,0 +1,29 @@
+<settings>
+    <localip id="0">192.168.0.200</localip>
+    <hostip id="1"></hostip>
+    <subnetmask id="2">255.255.254.</subnetmask>
+    <gateway id="3">192.168.1.1</gateway>
+    <listenport id="4">6666</listenport>
+    <year id="5">214</year>
+    <month id="6">10</month>
+    <day id="7">10</day>
+    <hour id="8">0</hour>
+    <minute id="9">0</minute>
+    <hrmax id="10">70</hrmax>
+    <hrmin id="11">50</hrmin>
+    <spo2max id="12">100</spo2max>
+    <spo2min id="13">50</spo2min>
+    <diasmax id="14">100</diasmax>
+    <diasmin id="15">50</diasmin>
+    <avermax id="16">80</avermax>
+    <avermin id="17">50</avermin>
+    <sysmax id="18">120</sysmax>
+    <sysmin id="19">100</sysmin>
+    <tempmax id="20">40</tempmax>
+    <tempmin id="21">35</tempmin>
+    <glumax id="22">6.9</glumax>
+    <glumin id="23">0</glumin>
+    <connectport id="24">0</connectport>
+    <Isbuzzing id="25">0</Isbuzzing>
+    <Langue id="26">Chinese</Langue>
+</settings>
