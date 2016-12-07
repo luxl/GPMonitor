@@ -1272,12 +1272,16 @@ void MonitorForm::DataCalibrate()
     int hrout[10]={hroutput1,hroutput2,hroutput3,hroutput4,hroutput5,hroutput6,hroutput7,hroutput8,hroutput9,hroutput10};
     int spo2in[10]={spo2input1,spo2input2,spo2input3,spo2input4,spo2input5,spo2input6,spo2input7,spo2input8,spo2input9,spo2input10};
     int spo2out[10]={spo2output1,spo2output2,spo2output3,spo2output4,spo2output5,spo2output6,spo2output7,spo2output8,spo2output9,spo2output10};
-    int diain[10]={diainput1,diainput2,diainput3,diainput4,diainput5,diainput6,diainput7,diainput8,diainput9,diainput10};
-    int diaout[10]={diaoutput1,diaoutput2,diaoutput3,diaoutput4,diaoutput5,diaoutput6,diaoutput7,diaoutput8,diaoutput9,diaoutput10};
-    int averin[10]={averinput1,averinput2,averinput3,averinput4,averinput5,averinput6,averinput7,averinput8,averinput9,averinput10};
-    int averout[10]={averoutput1,averoutput2,averoutput3,averoutput4,averoutput5,averoutput6,averoutput7,averoutput8,averoutput9,averoutput10};
+//    int diain[10]={diainput1,diainput2,diainput3,diainput4,diainput5,diainput6,diainput7,diainput8,diainput9,diainput10};
+//    int diaout[10]={diaoutput1,diaoutput2,diaoutput3,diaoutput4,diaoutput5,diaoutput6,diaoutput7,diaoutput8,diaoutput9,diaoutput10};
+//    int averin[10]={averinput1,averinput2,averinput3,averinput4,averinput5,averinput6,averinput7,averinput8,averinput9,averinput10};
+//    int averout[10]={averoutput1,averoutput2,averoutput3,averoutput4,averoutput5,averoutput6,averoutput7,averoutput8,averoutput9,averoutput10};
     int sysin[10]={sysinput1,sysinput2,sysinput3,sysinput4,sysinput5,sysinput6,sysinput7,sysinput8,sysinput9,sysinput10};
     int sysout[10]={sysoutput1,sysoutput2,sysoutput3,sysoutput4,sysoutput5,sysoutput6,sysoutput7,sysoutput8,sysoutput9,sysoutput10};
+    int *diain = &sysin[0];
+    int *diaout = &sysout[0];
+    int *averin = &sysin[0];
+    int *averout = &sysout[0];
     QString val;
     for(int i=0;i<9;i++)
     {
